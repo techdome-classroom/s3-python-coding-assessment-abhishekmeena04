@@ -24,7 +24,7 @@ class Solution:
         # If the stack is empty, all brackets were matched; otherwise, it's invalid
         return len(stack) == 0
 
-# Example usage:
+
 sol = Solution()
 print(sol.isValid("()[]{}"))  # Output: True
 print(sol.isValid("(]"))      # Output: False
